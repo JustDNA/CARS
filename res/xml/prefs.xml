@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="amb"
+        android:summary="Enter ambulance service number"
+        android:title="AMBULANCE SERVICE" >
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="cop"
+        android:summary="Enter police service number"
+        android:title="POLICE SERVICE" >
+    </EditTextPreference>
+    
+</PreferenceScreen>

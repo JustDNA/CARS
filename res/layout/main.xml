@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   	android:screenOrientation="portrait"
+    android:keepScreenOn="true" >
+    
+    <com.google.android.maps.MapView
+        android:id="@+id/mv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0PVOVVI3-RrQxM7473RHI2ewIpagcguImqQf1VQ" 
+        android:enabled="true"
+        android:clickable="true"/>
+	
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Brought to you by: \nSPIDER, NIT Trichy."
+        android:textSize="15dp"
+        android:gravity="left"
+        android:layout_weight="1"
+    />
+
+
+</RelativeLayout>
